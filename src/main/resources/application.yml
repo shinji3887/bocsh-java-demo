@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: bocsh-java-demo
+    datasource:  
+        driver-class-name: oracle.jdbc.driver.OracleDriver  
+        url: jdbc:oracle:thin:@22.196.66.56:1521/shcsps
+        username: espadmin
+        password: bocshadmin
+    jpa:  
+        hibernate:  
+            ddl-auto: none
+        show-sql: true
